@@ -1,0 +1,8 @@
+*.o
+*.exe
+test_forward
+artifacts/test_outputs/
+artifacts/**/*.bin
+__pycache__/
+.venv
+.vscode

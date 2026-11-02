@@ -1,0 +1,449 @@
+{
+  "format": "RN18",
+  "version": 1,
+  "endianness": "little",
+  "header_bytes": 16,
+  "tensor_count": 42,
+  "payload_bytes": 46738848,
+  "tensors": [
+    {
+      "name": "conv1.weight_folded",
+      "shape": [
+        64,
+        3,
+        7,
+        7
+      ],
+      "dtype": "float32",
+      "offset": 16,
+      "bytes": 37632
+    },
+    {
+      "name": "conv1.bias_folded",
+      "shape": [
+        64
+      ],
+      "dtype": "float32",
+      "offset": 37648,
+      "bytes": 256
+    },
+    {
+      "name": "layer1.0.conv1.weight_folded",
+      "shape": [
+        64,
+        64,
+        3,
+        3
+      ],
+      "dtype": "float32",
+      "offset": 37904,
+      "bytes": 147456
+    },
+    {
+      "name": "layer1.0.conv1.bias_folded",
+      "shape": [
+        64
+      ],
+      "dtype": "float32",
+      "offset": 185360,
+      "bytes": 256
+    },
+    {
+      "name": "layer1.0.conv2.weight_folded",
+      "shape": [
+        64,
+        64,
+        3,
+        3
+      ],
+      "dtype": "float32",
+      "offset": 185616,
+      "bytes": 147456
+    },
+    {
+      "name": "layer1.0.conv2.bias_folded",
+      "shape": [
+        64
+      ],
+      "dtype": "float32",
+      "offset": 333072,
+      "bytes": 256
+    },
+    {
+      "name": "layer1.1.conv1.weight_folded",
+      "shape": [
+        64,
+        64,
+        3,
+        3
+      ],
+      "dtype": "float32",
+      "offset": 333328,
+      "bytes": 147456
+    },
+    {
+      "name": "layer1.1.conv1.bias_folded",
+      "shape": [
+        64
+      ],
+      "dtype": "float32",
+      "offset": 480784,
+      "bytes": 256
+    },
+    {
+      "name": "layer1.1.conv2.weight_folded",
+      "shape": [
+        64,
+        64,
+        3,
+        3
+      ],
+      "dtype": "float32",
+      "offset": 481040,
+      "bytes": 147456
+    },
+    {
+      "name": "layer1.1.conv2.bias_folded",
+      "shape": [
+        64
+      ],
+      "dtype": "float32",
+      "offset": 628496,
+      "bytes": 256
+    },
+    {
+      "name": "layer2.0.conv1.weight_folded",
+      "shape": [
+        128,
+        64,
+        3,
+        3
+      ],
+      "dtype": "float32",
+      "offset": 628752,
+      "bytes": 294912
+    },
+    {
+      "name": "layer2.0.conv1.bias_folded",
+      "shape": [
+        128
+      ],
+      "dtype": "float32",
+      "offset": 923664,
+      "bytes": 512
+    },
+    {
+      "name": "layer2.0.conv2.weight_folded",
+      "shape": [
+        128,
+        128,
+        3,
+        3
+      ],
+      "dtype": "float32",
+      "offset": 924176,
+      "bytes": 589824
+    },
+    {
+      "name": "layer2.0.conv2.bias_folded",
+      "shape": [
+        128
+      ],
+      "dtype": "float32",
+      "offset": 1514000,
+      "bytes": 512
+    },
+    {
+      "name": "layer2.0.downsample.weight_folded",
+      "shape": [
+        128,
+        64,
+        1,
+        1
+      ],
+      "dtype": "float32",
+      "offset": 1514512,
+      "bytes": 32768
+    },
+    {
+      "name": "layer2.0.downsample.bias_folded",
+      "shape": [
+        128
+      ],
+      "dtype": "float32",
+      "offset": 1547280,
+      "bytes": 512
+    },
+    {
+      "name": "layer2.1.conv1.weight_folded",
+      "shape": [
+        128,
+        128,
+        3,
+        3
+      ],
+      "dtype": "float32",
+      "offset": 1547792,
+      "bytes": 589824
+    },
+    {
+      "name": "layer2.1.conv1.bias_folded",
+      "shape": [
+        128
+      ],
+      "dtype": "float32",
+      "offset": 2137616,
+      "bytes": 512
+    },
+    {
+      "name": "layer2.1.conv2.weight_folded",
+      "shape": [
+        128,
+        128,
+        3,
+        3
+      ],
+      "dtype": "float32",
+      "offset": 2138128,
+      "bytes": 589824
+    },
+    {
+      "name": "layer2.1.conv2.bias_folded",
+      "shape": [
+        128
+      ],
+      "dtype": "float32",
+      "offset": 2727952,
+      "bytes": 512
+    },
+    {
+      "name": "layer3.0.conv1.weight_folded",
+      "shape": [
+        256,
+        128,
+        3,
+        3
+      ],
+      "dtype": "float32",
+      "offset": 2728464,
+      "bytes": 1179648
+    },
+    {
+      "name": "layer3.0.conv1.bias_folded",
+      "shape": [
+        256
+      ],
+      "dtype": "float32",
+      "offset": 3908112,
+      "bytes": 1024
+    },
+    {
+      "name": "layer3.0.conv2.weight_folded",
+      "shape": [
+        256,
+        256,
+        3,
+        3
+      ],
+      "dtype": "float32",
+      "offset": 3909136,
+      "bytes": 2359296
+    },
+    {
+      "name": "layer3.0.conv2.bias_folded",
+      "shape": [
+        256
+      ],
+      "dtype": "float32",
+      "offset": 6268432,
+      "bytes": 1024
+    },
+    {
+      "name": "layer3.0.downsample.weight_folded",
+      "shape": [
+        256,
+        128,
+        1,
+        1
+      ],
+      "dtype": "float32",
+      "offset": 6269456,
+      "bytes": 131072
+    },
+    {
+      "name": "layer3.0.downsample.bias_folded",
+      "shape": [
+        256
+      ],
+      "dtype": "float32",
+      "offset": 6400528,
+      "bytes": 1024
+    },
+    {
+      "name": "layer3.1.conv1.weight_folded",
+      "shape": [
+        256,
+        256,
+        3,
+        3
+      ],
+      "dtype": "float32",
+      "offset": 6401552,
+      "bytes": 2359296
+    },
+    {
+      "name": "layer3.1.conv1.bias_folded",
+      "shape": [
+        256
+      ],
+      "dtype": "float32",
+      "offset": 8760848,
+      "bytes": 1024
+    },
+    {
+      "name": "layer3.1.conv2.weight_folded",
+      "shape": [
+        256,
+        256,
+        3,
+        3
+      ],
+      "dtype": "float32",
+      "offset": 8761872,
+      "bytes": 2359296
+    },
+    {
+      "name": "layer3.1.conv2.bias_folded",
+      "shape": [
+        256
+      ],
+      "dtype": "float32",
+      "offset": 11121168,
+      "bytes": 1024
+    },
+    {
+      "name": "layer4.0.conv1.weight_folded",
+      "shape": [
+        512,
+        256,
+        3,
+        3
+      ],
+      "dtype": "float32",
+      "offset": 11122192,
+      "bytes": 4718592
+    },
+    {
+      "name": "layer4.0.conv1.bias_folded",
+      "shape": [
+        512
+      ],
+      "dtype": "float32",
+      "offset": 15840784,
+      "bytes": 2048
+    },
+    {
+      "name": "layer4.0.conv2.weight_folded",
+      "shape": [
+        512,
+        512,
+        3,
+        3
+      ],
+      "dtype": "float32",
+      "offset": 15842832,
+      "bytes": 9437184
+    },
+    {
+      "name": "layer4.0.conv2.bias_folded",
+      "shape": [
+        512
+      ],
+      "dtype": "float32",
+      "offset": 25280016,
+      "bytes": 2048
+    },
+    {
+      "name": "layer4.0.downsample.weight_folded",
+      "shape": [
+        512,
+        256,
+        1,
+        1
+      ],
+      "dtype": "float32",
+      "offset": 25282064,
+      "bytes": 524288
+    },
+    {
+      "name": "layer4.0.downsample.bias_folded",
+      "shape": [
+        512
+      ],
+      "dtype": "float32",
+      "offset": 25806352,
+      "bytes": 2048
+    },
+    {
+      "name": "layer4.1.conv1.weight_folded",
+      "shape": [
+        512,
+        512,
+        3,
+        3
+      ],
+      "dtype": "float32",
+      "offset": 25808400,
+      "bytes": 9437184
+    },
+    {
+      "name": "layer4.1.conv1.bias_folded",
+      "shape": [
+        512
+      ],
+      "dtype": "float32",
+      "offset": 35245584,
+      "bytes": 2048
+    },
+    {
+      "name": "layer4.1.conv2.weight_folded",
+      "shape": [
+        512,
+        512,
+        3,
+        3
+      ],
+      "dtype": "float32",
+      "offset": 35247632,
+      "bytes": 9437184
+    },
+    {
+      "name": "layer4.1.conv2.bias_folded",
+      "shape": [
+        512
+      ],
+      "dtype": "float32",
+      "offset": 44684816,
+      "bytes": 2048
+    },
+    {
+      "name": "fc.weight",
+      "shape": [
+        1000,
+        512
+      ],
+      "dtype": "float32",
+      "offset": 44686864,
+      "bytes": 2048000
+    },
+    {
+      "name": "fc.bias",
+      "shape": [
+        1000
+      ],
+      "dtype": "float32",
+      "offset": 46734864,
+      "bytes": 4000
+    }
+  ]
+}
